@@ -1,0 +1,36 @@
+.left{
+  margin-left: 180px;
+  }
+
+  main{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  footer{
+    background-color: rgb(198, 226, 35);
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(19, 31, 202);
+    }
+
+    header{
+      background-color: rgb(198, 226, 35);
+      position: fixed;
+      left:0;
+      top:0;
+      height: 50px;
+      width: 100%
+    }
