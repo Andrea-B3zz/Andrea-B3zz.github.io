@@ -10,10 +10,29 @@
 </head>
 
 <body>
+  <!--
+    title change, x
+    semantic tags, v
+    footer, v
+    paragraphs fonts, xv
+    paragraphs-space-img, 
+    prev exp in profile, v
+    bullet points color, v
+    aside bar legnth, v
+    no top, x
+    buttons in every page, v
+    too many I s, x
+    dashboards req, 
+    graph dashboard,  
+    nav without post, v
   
+  -->
+
   <header>
 
-    <div id="navigation">
+    <!-- Navigation bar -->
+
+    <section id="navigation">
 
       <button type="button" id="current">Index</button>
 
@@ -33,14 +52,17 @@
         <input type="submit" value="Blog" />
       </form>
 
-    </div>
+    </section>
   </header>
 
-  <main class="left">
+  <main class="left"> <!-- Move text on the left to avoid aside bar -->
 
-    <div class="sidebar">
+    <!-- Aside bar -->
+
+    <section class="sidebar">
+      <article class="links">
       <p id="link_desc">This is a list of useful links:</p>
-      <ul>
+      <ul class="bullet">
         <li><a
             href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
             target="_blank">HZ HBO-ICT Course and Examination Regulations</a></li>
@@ -56,21 +78,25 @@
             target="_blank">MyHz</a></li>
         <li><a href="https://github.com/Andrea-B3zz" target="_blank">Github</a></li>
       </ul>
-    </div>
+    </article>
+    </section>
 
-    <div style="display:inline-block;vertical-align:top;">
-      <img style="float: left" src="image1.png" alt="ICT systems" wisth="200" height="200">
+    <!-- image separated from txt (style, bc doesn't work on external)-->
+    <section id="container1" style="display:inline-block; vertical-align:top;">
+      <img id="img1" src="image1.png" alt="ICT systems" width="200" height="200">
 
-      <h1>Index page</h1>
-      <p>This is the index page, you can find my opinions on why I think this programme suits me and links to access
-        other pages.</p>
-    </div>
+      <article id="txt1">
+        <h1>Index page</h1>
+        <p>This is the index page, you can find my opinions on why I think this programme suits me and links to access
+          other pages.</p>
+      </article>
+    </section>
     <br>
     <section>
 
       <h1>What is ICT?</h1>
       <p>Information and communications technology is an extensional term for information technology (IT) that combine
-        communications with telecommunications (via Internet). (Source: <a
+        communications with telecommunications (via Internet).<br> (Source: <a
           href="https://en.wikipedia.org/wiki/Information_and_communications_technology">Wikipedia</a>)
       </p>
     </section>
@@ -112,28 +138,13 @@
         Maybe in the future I may also leave this country go get experiences in other places around the world.
       </p>
     </section>
-    <br>
-
-    <section>
-      <H1>Previous experience</H1>
-      <p>I have some previous experience in coding from the high school. I did an ICT oriented school in Italy (<a
-          href="https://www.isiskeynes.edu.it/">Isis J.M. Keynes</a>) and I also worked on some apps during projects.
-        This
-        allowed
-        me to have a basic understanding of the subject. Another thing that I learned is what I like and what I don't. I
-        like (coding, as I said before, ) network systems
-        and cybersecurity (and cryptography). Something I didn't really enjoyed, instead, was the data part and the SQL
-        language. Anyway, I am always ready to change opinion
-        during these years at HZ.
-      </p>
-
-    </section>
-
 
   </main>
 
   <footer>
-
+    <article class="email">
+      <text>Email: <a href="mailto: bezzolatoandrea4@gmail.com">bezzolatoandrea4@gmail.com</a></text>
+    </article>
   </footer>
 
 </body>
