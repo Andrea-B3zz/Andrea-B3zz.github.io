@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 80px;
   font-family: cursive;
 }
@@ -108,19 +108,11 @@ legend {
   font-weight: bold;
 }
 
-/*
-#container{
-  display:inline-block;
-  vertical-align:top;
-}*/
-
 #img1 {
-  float: left;
-  padding: 20px;
-}
-
-#txt1 {
-  padding-top: 30px;
+  max-width: 100%;
+  max-height:100%;
+  float: right;
+  margin-right: 20px;
 }
 
 .email{
