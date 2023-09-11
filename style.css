@@ -64,7 +64,7 @@ form {
 input[type=submit] {
   padding: 7px;
   margin: 8px;
-  background-color: rgb(120, 217, 255);
+  background-color: rgb(89, 249, 249);
   border: none;
   border-radius: 4px;
   transition-duration: 0.4s;
@@ -124,4 +124,37 @@ legend {
 
 .bullet{
   color: white;
+}
+
+table, th, td{
+  border:solid;
+  border-collapse: collapse;
+}
+
+.headings{
+  color: rgb(75, 75, 75);
+}
+
+
+.pass{
+background-color: rgb(138, 250, 40);
+}
+
+.notgr{
+  background-color: rgb(246, 255, 0);
+  }
+
+.fail{
+  background-color: rgb(250, 120, 40);
+}
+
+
+.quartile{
+  background-color: white;
+}
+
+#progbar{
+  width: 70%;
+margin-left: 85px;
+color: red;
 }
