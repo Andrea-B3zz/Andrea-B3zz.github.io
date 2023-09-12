@@ -34,8 +34,8 @@ footer {
   background-color: rgb(19, 31, 202);
 }
 
-.links{
-margin-top: 170px;
+.links {
+  margin-top: 170px;
 }
 
 header {
@@ -110,51 +110,87 @@ legend {
 
 #img1 {
   max-width: 100%;
-  max-height:100%;
+  max-height: 100%;
   float: right;
   margin-right: 20px;
 }
 
-.email{
+.email {
   margin-top: 15px;
   margin-left: 200px;
   font-family: sans-serif;
   color: rgb(0, 0, 0);
 }
 
-.bullet{
+.bullet {
   color: white;
 }
 
-table, th, td{
-  border:solid;
+table,
+th,
+td {
+  border: solid;
   border-collapse: collapse;
 }
 
-.headings{
+.headings {
   color: rgb(75, 75, 75);
 }
 
-
-.pass{
-background-color: rgb(138, 250, 40);
+.notgr {
+  background-color: rgb(246, 255, 0);
 }
 
-.notgr{
-  background-color: rgb(246, 255, 0);
-  }
+.pass {
+  background-color: rgb(138, 250, 40);
+}
 
-.fail{
+.fail {
   background-color: rgb(250, 120, 40);
 }
 
 
-.quartile{
+.quartile {
   background-color: white;
 }
 
-#progbar{
+#ec_tot {
+  margin-left: 57%;
+}
+
+#bar {
+  height: 20px;
   width: 70%;
-margin-left: 85px;
-color: red;
+  margin-left: 5%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid 3px;
+}
+
+#barfill {
+  height: 20px;
+  width: 0%;
+  background-color: rgb(250, 120, 40);
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+#nbsa {
+  margin-top: -35px;
+  height: 20px;
+  width: 3px;
+  margin-left: 75%;
+  background-color: black;
+}
+
+#prg_lbl {
+  margin-left: 5%;
+}
+
+#nbsa_mark {
+  margin-left: 75%;
+}
+
+#ind {
+  margin-left: 80%;
 }
