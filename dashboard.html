@@ -13,6 +13,8 @@
 <body>
   <header>
 
+    <button class="openBtn" onclick="openNav()">☰ Useful links</button>
+
     <nav id="navigation">
 
       <form action="index.html">
@@ -37,11 +39,11 @@
 
   </header>
 
-  <main class="left">
+  <main class="left" id="main">
 
-    <aside class="sidebar">
+    <aside class="sidebar" id="movable">
+      <button id="closeBtn" onclick="closeNav()">X</button>
       <article class="links">
-        <p id="linkDesc">This is a list of useful links regarding the HBO-ICT:</p>
         <ul class="bullet">
           <li><a class="sideLinks"
               href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
@@ -217,6 +219,8 @@
       <text>Email: <a href="mailto: bezzolatoandrea4@gmail.com">bezzolatoandrea4@gmail.com</a></text>
     </article>
   </footer>
+
+  <script src="sidebarScript.js"></script>
 
 </body>
 

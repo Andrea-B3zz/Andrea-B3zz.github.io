@@ -13,6 +13,8 @@
 <body>
   <header>
 
+    <button class="openBtn" onclick="openNav()">☰ Useful links</button>
+
     <nav id="navigation">
 
       <form action="index.html">
@@ -37,11 +39,11 @@
 
   </header>
 
-  <main class="left">
+  <main class="left" id="main">
 
-    <aside class="sidebar">
+    <aside class="sidebar" id="movable">
+      <button id="closeBtn" onclick="closeNav()">X</button>
       <article class="links">
-        <p id="linkDesc">This is a list of useful links regarding the HBO-ICT:</p>
         <ul class="bullet">
           <li><a class="sideLinks"
               href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
@@ -66,16 +68,30 @@
       <h1>Who am I?</h1>
       <ul>
         <li>Hi, I'm Andrea Bezzolato, I will soon turn 19 and I'm from Italy. I'm from Casciago which is a small village
-          in "Varese" province which is more or less 60 kms from Milan.</li>
+          in "Varese" province which is more or less 60 kms from Milan. My mom, instead is from Rome. Because of this I
+          use
+          to spend some festivities in the Italian's capital, where my relatives live.
+        </li>
         <br>
         <li> I consider myself a curious person that enjoys discovering new things. I am really interested in ICT. This
-          is my biggest passion.</li>
+          is my biggest passion. I also like astronomy. In fact I love reading facts about stars, galaxies and planets.
+        </li>
         <br>
-        <li>I like a lot of sports like football, basketball and volleyball. My favourite one, though, is tabletennis. I
-          practice it since I was 10 and I am pretty good at it.</li>
+        <li>I like a lot of sports like and I follow football and basketball. In football I support AC Milan since I was
+          a child
+          and sometimes I go to "San Siro" to watch the games. In basketball I support "Pallacanestro Varese". This is
+          the club
+          from the city where I live in Italy. My favourite sport, anyway, is tabletennis. I play it since I was 10 and
+          I think
+          I'm pretty good at it. At the moment I am playing for TTC Middelburg. We train 3/4 times a week and we play
+          league games
+          in the weekends.
+        </li>
         <br>
         <li>I also like films and books. My preferred genres are sci-fi, fantasy and action. Anyway, I prefer films
-          because I'm too lazy to read an entire book.</li>
+          because I'm too lazy to read an entire book. Because of this I'm trying to take sometimes almost everyday
+          before going to sleep to read one or two chapters. Maybe in some years I will completely abandon films and
+          only read books</li>
 
       </ul>
     </section>
@@ -97,12 +113,13 @@
         The first time I had to develop an app in which you can store your best memories. There was a timeline and the
         most relevant events to you were on top of that. I used the language "Dart" and the framework "Flutter".
         <br>
-        The second time was 2 years later and because of this I used more experience achieved from school. I developed a game
+        The second time was 2 years later and because of this I used more experience achieved from school. I developed a
+        game
         in "Unity" in which you had to drive a ball in order to avoid obstacles. It was very fun because it showed me
         what could be my future job.
       </p>
     </section>
-<br>
+    <br>
 
   </main>
 
@@ -111,6 +128,8 @@
       <text>Email: <a href="mailto: bezzolatoandrea4@gmail.com">bezzolatoandrea4@gmail.com</a></text>
     </article>
   </footer>
+
+  <script src="sidebarScript.js"></script>
 
 </body>
 
