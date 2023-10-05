@@ -233,3 +233,15 @@ td {
 #ind {
   margin-left: 80%;
 }
+
+#greenLegend{
+  width:13%;
+}
+
+#yellowLegend{
+  width:16%;
+}
+
+#redLegend{
+  width:11%;
+}
